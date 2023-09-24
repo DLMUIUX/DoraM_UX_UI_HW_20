@@ -563,7 +563,7 @@ img{
 
 .research-image{
     margin: 0;
-    padding-top: 20px;
+    padding-top: 0px;
     align-items: center;
     justify-content: center;   
     max-width: 100%;
@@ -669,7 +669,7 @@ img{
 .prototyping .container{
     font-family: "Monserratt",sans-serif;
     background-color:#faf9f8;
-    height:2200px;
+    height:2350px;
     max-width: 1400px;
     display:flex;
     flex-direction: row;
