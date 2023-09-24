@@ -407,6 +407,10 @@ img{
     font-size: 30px;
   }
 
+  .jumboCopy-desc2{
+    font-size: 25px;
+  }
+
   /* .project-intro{
     background-color: #ccc2bd;
     height: calc(100vh - 25px);
@@ -459,6 +463,12 @@ img{
     font-family: "Monserratt",sans-serif;
 }
 
+.methodology .container{
+    background: #f0f4f8;
+    padding-bottom: 0;
+    height:600px;
+   }
+
   .methodology h2{
     text-align:center;
     font-size:38px;
@@ -487,12 +497,7 @@ img{
     color:#212529;
    }
 
-  .methodology .container{
-    background: #f0f4f8;
-    padding-bottom: 0 !important;
-   }
-
-  .process-image{
+   .process-image{
     margin: 0;
     padding:0;
     align-items: left;
@@ -589,7 +594,7 @@ img{
 .planning .container{
     font-family: "Monserratt",sans-serif;
     background-color:#f0f4f8;
-    height:1400px;
+    height:1600px;
     max-width: 1400px;
     display:flex;
     flex-direction: row;
@@ -664,7 +669,7 @@ img{
 .prototyping .container{
     font-family: "Monserratt",sans-serif;
     background-color:#faf9f8;
-    height:1900px;
+    height:2200px;
     max-width: 1400px;
     display:flex;
     flex-direction: row;
@@ -699,10 +704,20 @@ img{
 
 .prototyping .subtitle{
     text-align:left;
-    font-size:30px;
+    font-size:35px;
     margin-left: 35px;
     padding-top:10px;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
+    color:#c2723e;
+}
+
+.prototyping .before-after{
+    text-align:center;
+    font-size:25px;
+    font-weight: 600;
+    margin-left: 0px;
+    padding-top:10px;
+    margin-bottom: 10px;
     color:#c2723e;
 }
 
@@ -739,7 +754,7 @@ img{
 .conclusion .container{
     font-family: "Monserratt",sans-serif;
     background-color:#faf9f8;
-    height:1000px;
+    height:950px;
     max-width: 1400px;
     display:flex;
     flex-direction: row;
