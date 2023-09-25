@@ -160,11 +160,11 @@ a:active{
 .container{
     font-family: "Monserratt",sans-serif;
     background-color: #ccc2bd;
-    height:720px;
+    /* height:720px;
     display:flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 .item{
@@ -466,7 +466,7 @@ img{
 .methodology .container{
     background: #f0f4f8;
     padding-bottom: 0;
-    height:600px;
+    /* height:600px; */
    }
 
   .methodology h2{
@@ -519,7 +519,7 @@ img{
 .research .container{
     font-family: "Monserratt",sans-serif;
     background-color:#faf9f8;
-    height:1400px;
+    /* height:1400px; */
     max-width: 1400px;
     display:flex;
     flex-direction: row;
@@ -594,9 +594,9 @@ img{
 .planning .container{
     font-family: "Monserratt",sans-serif;
     background-color:#f0f4f8;
-    height:1600px;
+    /* height:1600px; */
     max-width: 1400px;
-    display:flex;
+    /* display:flex; */
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -656,7 +656,7 @@ img{
     max-height: 90%;
     box-shadow: none;
 }
-
+/* David*/
 /* -------------------------------- */
 /* Prototyping                      */
 /* ---------------------------------*/
@@ -669,9 +669,9 @@ img{
 .prototyping .container{
     font-family: "Monserratt",sans-serif;
     background-color:#faf9f8;
-    height:2350px;
+    /* height:2350px; */
     max-width: 1400px;
-    display:flex;
+    /* display:flex; */
     flex-direction: row;
     justify-content: center;
     align-items: center;
