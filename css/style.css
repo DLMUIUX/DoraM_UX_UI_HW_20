@@ -151,8 +151,7 @@ a:active{
     letter-spacing: 3px;
     margin: auto;
     text-align: center;
-    /* font-family: 'Quattrocento', serif; */
-    font-family: "Monserratt",sans-serif;
+    font-family: 'Quattrocento', serif;
     line-height:80px;
     height: 80px;
  }
@@ -160,11 +159,11 @@ a:active{
 .container{
     font-family: "Monserratt",sans-serif;
     background-color: #ccc2bd;
-    /* height:720px;
+    height:700px;
     display:flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
 }
 
 .item{
@@ -182,8 +181,6 @@ a:active{
     font-family: "Monserratt",sans-serif;
     letter-spacing: 0.06em;
     padding-top: 10px;
-    text-decoration: underline;
-    text-underline-offset: 8px;
 }
 
 .skill-sub-title{
@@ -220,8 +217,6 @@ img{
     margin-bottom: 10px;
     max-width: 70%;
     max-height: 70%;
-    border-radius:50%;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 4px 6px rgba(0,0,0,0.45);
 }
 
 /*************************************************************/
