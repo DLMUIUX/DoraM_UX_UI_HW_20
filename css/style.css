@@ -160,11 +160,11 @@ a:active{
 .container{
     font-family: "Monserratt",sans-serif;
     background-color: #ccc2bd;
-    height:720px;
+    /* height:720px;
     display:flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 .item{
@@ -466,14 +466,14 @@ img{
 .methodology .container{
     background: #f0f4f8;
     padding-bottom: 0;
-    height:600px;
+    /* height:600px; */
    }
 
   .methodology h2{
     text-align:center;
     font-size:38px;
-    margin-top:80px;
-    margin-bottom: 10px;
+    margin-top:40px;
+    margin-bottom: 50px;
     color:#c2723e;
     font-weight: 475;
     letter-spacing: 0.02em;
@@ -519,7 +519,7 @@ img{
 .research .container{
     font-family: "Monserratt",sans-serif;
     background-color:#faf9f8;
-    height:1400px;
+    /* height:1400px; */
     max-width: 1400px;
     display:flex;
     flex-direction: row;
@@ -543,6 +543,7 @@ img{
     font-size:25px;
     color:#212529;
     padding-left: 30px;
+    margin-bottom: 50px;
 }
 
 .research p{
@@ -594,9 +595,9 @@ img{
 .planning .container{
     font-family: "Monserratt",sans-serif;
     background-color:#f0f4f8;
-    height:1600px;
+    /* height:1600px; */
     max-width: 1400px;
-    display:flex;
+    /* display:flex; */
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -618,6 +619,7 @@ img{
     font-size:25px;
     color:#212529;
     padding-left: 30px;
+    margin-bottom: 50px;
 }
 
 .planning p{
@@ -656,7 +658,7 @@ img{
     max-height: 90%;
     box-shadow: none;
 }
-
+/* David*/
 /* -------------------------------- */
 /* Prototyping                      */
 /* ---------------------------------*/
@@ -669,9 +671,9 @@ img{
 .prototyping .container{
     font-family: "Monserratt",sans-serif;
     background-color:#faf9f8;
-    height:2350px;
+    /* height:2350px; */
     max-width: 1400px;
-    display:flex;
+    /* display:flex; */
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -729,7 +731,7 @@ img{
     max-width: 100%;
     max-height: 90%;
     box-shadow: none;
-    
+    margin-bottom: 50px;
 }
 
 .prototyping-image-padded{
