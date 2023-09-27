@@ -151,7 +151,8 @@ a:active{
     letter-spacing: 3px;
     margin: auto;
     text-align: center;
-    font-family: 'Quattrocento', serif;
+    /* font-family: 'Quattrocento', serif; */
+    font-family: "Monserratt",sans-serif;
     line-height:80px;
     height: 80px;
  }
@@ -159,7 +160,7 @@ a:active{
 .container{
     font-family: "Monserratt",sans-serif;
     background-color: #ccc2bd;
-    height:700px;
+    height:720px;
     display:flex;
     flex-direction: row;
     justify-content: center;
@@ -181,6 +182,8 @@ a:active{
     font-family: "Monserratt",sans-serif;
     letter-spacing: 0.06em;
     padding-top: 10px;
+    text-decoration: underline;
+    text-underline-offset: 8px;
 }
 
 .skill-sub-title{
@@ -217,6 +220,8 @@ img{
     margin-bottom: 10px;
     max-width: 70%;
     max-height: 70%;
+    border-radius:50%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 4px 6px rgba(0,0,0,0.45);
 }
 
 /*************************************************************/
@@ -461,14 +466,14 @@ img{
 .methodology .container{
     background: #f0f4f8;
     padding-bottom: 0;
-    /* height:600px; */
+    height:600px;
    }
 
   .methodology h2{
     text-align:center;
     font-size:38px;
-    margin-top:40px;
-    margin-bottom: 50px;
+    margin-top:80px;
+    margin-bottom: 10px;
     color:#c2723e;
     font-weight: 475;
     letter-spacing: 0.02em;
@@ -514,7 +519,7 @@ img{
 .research .container{
     font-family: "Monserratt",sans-serif;
     background-color:#faf9f8;
-    /* height:1400px; */
+    height:1400px;
     max-width: 1400px;
     display:flex;
     flex-direction: row;
@@ -538,7 +543,6 @@ img{
     font-size:25px;
     color:#212529;
     padding-left: 30px;
-    margin-bottom: 50px;
 }
 
 .research p{
@@ -590,9 +594,9 @@ img{
 .planning .container{
     font-family: "Monserratt",sans-serif;
     background-color:#f0f4f8;
-    /* height:1600px; */
+    height:1600px;
     max-width: 1400px;
-    /* display:flex; */
+    display:flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -614,14 +618,6 @@ img{
     font-size:25px;
     color:#212529;
     padding-left: 30px;
-}
-
-.planning-bullets-bottom{
-    background-color:#f0f4f8;
-    font-size:25px;
-    color:#212529;
-    padding-left: 30px;
-    margin-bottom: 50px;
 }
 
 .planning p{
@@ -660,7 +656,7 @@ img{
     max-height: 90%;
     box-shadow: none;
 }
-/* David*/
+
 /* -------------------------------- */
 /* Prototyping                      */
 /* ---------------------------------*/
@@ -673,9 +669,9 @@ img{
 .prototyping .container{
     font-family: "Monserratt",sans-serif;
     background-color:#faf9f8;
-    /* height:2350px; */
+    height:2350px;
     max-width: 1400px;
-    /* display:flex; */
+    display:flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -728,7 +724,6 @@ img{
 .prototyping-image{
     margin: 0;
     padding-top: 20px;
-    margin-bottom: 60px;
     align-items: center;
     justify-content: center;   
     max-width: 100%;
@@ -759,7 +754,7 @@ img{
 .conclusion .container{
     font-family: "Monserratt",sans-serif;
     background-color:#faf9f8;
-    /* height:950px; */
+    height:950px;
     max-width: 1400px;
     display:flex;
     flex-direction: row;
@@ -806,8 +801,7 @@ img{
     font-size:40px;
     margin-left: 35px;
     padding-top:20px;
-    margin-top: 30px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     color:#c2723e;
 }
 
@@ -844,7 +838,7 @@ img{
 .testing .container{
     font-family: "Monserratt",sans-serif;
     background-color:#f0f4f8;
-    /* height:1000px; */
+    height:1000px;
     max-width: 1400px;
     display:flex;
     flex-direction: row;
@@ -868,14 +862,6 @@ img{
     font-size:25px;
     color:#212529;
     padding-left: 30px;
-}
-
-.testing-bullets-bottom{
-    background-color:#f0f4f8;
-    font-size:25px;
-    color:#212529;
-    padding-left: 30px;
-    margin-bottom: 40px;
 }
 
 .testing p{
